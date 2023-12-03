@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bbba2f2023654c81b7ac88dd0c6a4651</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<p>Data points indexed by time are called time series data. Time series
+data is everywhere, so manipulating them is important for any data
+analyst or data scientist. This notebook explores data from the stock
+market, particularly Apple, Amazon, Google, and Microsoft. By using
+Seaborn and Matplotlib, we will learn how to get stock information using
+yfinance. Based on a stock's past performance history, we will examine a
+few ways to evaluate its risk. Using the Long Short Term Memory (LSTM)
+method, we will also be predicting future stock prices! Our goal is to
+answer the following questions along the way: 1.) Over time, how did the
+stock's price change? 2.) On average, what was the stock's daily return?
+3.) What was the moving average of the various stocks? 4.) How was the
+correlation between different stocks? 5.) How much value will we be
+putting at risk by investing in a particular stock? 6.) How can we
+attempt to The first step is to get the data and load it into memory in
+order to predict future stock behavior. Yahoo Finance will provide us
+with stock data. You can find compelling investments using Yahoo
+Finance's financial market data and tools. We will download market data
+from Yahoo Finance using the yfinance library, which offers a threaded
+and Pythonic way to do so.</p>
+</div>
+<div class="cell markdown">
+<p>What was the change in price of the stock overtime? We'll look at how
+to request stock information with Pandas and how to analyze basic stock
+attributes.</p>
+</div>
+<div class="cell code" data-execution_count="1"
+data-_kg_hide-input="true" data-_kg_hide-output="true"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:41.874081Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:41.873588Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:52.227947Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:52.227136Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:41.874052Z&quot;}">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>q yfinance</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Using the pip package manager, you can install the "yfinance"
+package.</p>
+<p>In plain English, the code requests the installation of a software
+library called "yfinance." This library is likely used to retrieve and
+access financial data. By using the "-q" flag, the installation process
+will be quiet, displaying no unnecessary information or prompts. "Pip"
+is a Python package manager that simplifies the process of installing
+and managing software packages. Using this code, you can use the
+"yfinance" library silently in your Python programs.</p>
+</div>
+<div class="cell code" data-execution_count="2"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:52.232549Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:52.229735Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:53.790057Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:53.789185Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:52.232518Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">&#39;whitegrid&#39;</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">&quot;fivethirtyeight&quot;</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># For reading stock data from yahoo</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas_datareader.data <span class="im">import</span> DataReader</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> yfinance <span class="im">as</span> yf</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas_datareader <span class="im">import</span> data <span class="im">as</span> pdr</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>yf.pdr_override()</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># For time stamps</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co"># The tech stocks we&#39;ll use for this analysis</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>tech_list <span class="op">=</span> [<span class="st">&#39;AAPL&#39;</span>, <span class="st">&#39;GOOG&#39;</span>, <span class="st">&#39;MSFT&#39;</span>, <span class="st">&#39;AMZN&#39;</span>]</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up End and Start times for data grab</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>tech_list <span class="op">=</span> [<span class="st">&#39;AAPL&#39;</span>, <span class="st">&#39;GOOG&#39;</span>, <span class="st">&#39;MSFT&#39;</span>, <span class="st">&#39;AMZN&#39;</span>]</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>end <span class="op">=</span> datetime.now()</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> datetime(end.year <span class="op">-</span> <span class="dv">1</span>, end.month, end.day)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> stock <span class="kw">in</span> tech_list:</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">globals</span>()[stock] <span class="op">=</span> yf.download(stock, start, end)</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>company_list <span class="op">=</span> [AAPL, GOOG, MSFT, AMZN]</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>company_name <span class="op">=</span> [<span class="st">&quot;APPLE&quot;</span>, <span class="st">&quot;GOOGLE&quot;</span>, <span class="st">&quot;MICROSOFT&quot;</span>, <span class="st">&quot;AMAZON&quot;</span>]</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> company, com_name <span class="kw">in</span> <span class="bu">zip</span>(company_list, company_name):</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>    company[<span class="st">&quot;company_name&quot;</span>] <span class="op">=</span> com_name</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.concat(company_list, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>df.tail(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Adj Close</th>
+      <th>Volume</th>
+      <th>company_name</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2023-06-14</th>
+      <td>126.699997</td>
+      <td>126.949997</td>
+      <td>124.120003</td>
+      <td>126.419998</td>
+      <td>126.419998</td>
+      <td>52422500</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-15</th>
+      <td>125.209999</td>
+      <td>127.690002</td>
+      <td>124.320000</td>
+      <td>127.110001</td>
+      <td>127.110001</td>
+      <td>60458500</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-16</th>
+      <td>127.709999</td>
+      <td>127.900002</td>
+      <td>125.300003</td>
+      <td>125.489998</td>
+      <td>125.489998</td>
+      <td>84188100</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-20</th>
+      <td>124.970001</td>
+      <td>127.250000</td>
+      <td>124.500000</td>
+      <td>125.779999</td>
+      <td>125.779999</td>
+      <td>56930100</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-21</th>
+      <td>125.639999</td>
+      <td>126.730003</td>
+      <td>123.849998</td>
+      <td>124.830002</td>
+      <td>124.830002</td>
+      <td>52137700</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-22</th>
+      <td>125.309998</td>
+      <td>130.330002</td>
+      <td>125.139999</td>
+      <td>130.149994</td>
+      <td>130.149994</td>
+      <td>90354600</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-23</th>
+      <td>129.110001</td>
+      <td>130.839996</td>
+      <td>128.279999</td>
+      <td>129.330002</td>
+      <td>129.330002</td>
+      <td>71855200</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-26</th>
+      <td>129.330002</td>
+      <td>131.490005</td>
+      <td>127.099998</td>
+      <td>127.330002</td>
+      <td>127.330002</td>
+      <td>59989300</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-27</th>
+      <td>128.630005</td>
+      <td>130.089996</td>
+      <td>127.550003</td>
+      <td>129.179993</td>
+      <td>129.179993</td>
+      <td>46801000</td>
+      <td>AMAZON</td>
+    </tr>
+    <tr>
+      <th>2023-06-28</th>
+      <td>128.940002</td>
+      <td>131.479996</td>
+      <td>128.440002</td>
+      <td>129.039993</td>
+      <td>129.039993</td>
+      <td>51695900</td>
+      <td>AMAZON</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Several Python libraries are imported, including pandas, numpy,
+matplotlib, and seaborn, that are commonly used for data analysis and
+visualization. This code configures the style and appearance of the
+matplotlib and seaborn plots. These libraries provide functionalities to
+handle data, perform numerical computations, and create visualizations.
+It is possible to create a specific aesthetic by setting the plotting
+style to "whitegrid" and using the "fivethirtyeight" style. The code
+imports the pandas_datareader library, which allows data to be retrieved
+from various online sources for analysis. In addition, it imports the
+yfinance library, which provides direct access to Yahoo Finance's data.
+By calling yf.pdr_override(), it sets up the environment to use yfinance
+as the data source. Next, a list called tech_list is defined, which
+contains Apple, Google, Microsoft, and Amazon ticker symbols. This code
+specifies the start and end dates for retrieving the stock data for
+these companies. The end date is the current date, and the start date is
+one year prior. This ensures that the data covers a one-year period. The
+code retrieves historical stock data from Yahoo Finance for each company
+in the tech_list. The data is then assigned to separate variables named
+after each company's ticker symbol (e.g., AAPL, GOOG, MSFT, AMZN) using
+the yf.download() function with the respective stock symbol, start date,
+and end date. A second loop iterates over both company_list and
+company_name in order to assign the appropriate company name to each
+dataset. It adds a new column called "company_name" to each DataFrame in
+company_list and assigns the corresponding company name. Using the
+pd.concat() function, it concatenates all the individual dataframes in
+company_list along the vertical axis (axis=0). This results in a single
+dataframe named df that combines the stock data for all the tech
+companies. The code displays the most recent 10 rows of the df
+dataframe, which shows the most recent stock data. For example,
+visualizations, calculations, or modeling can be made with this
+information.</p>
+<p>In summary, the provided code sets up the necessary environment,
+retrieves historical stock data from Yahoo Finance for specified tech
+companies, assigns company names to the data, and combines it into a
+single dataframe for further analysis. Data exploration and
+interpretation can be conducted after viewing the most recent stock data
+for the selected companies.</p>
+</div>
+<div class="cell markdown">
+<p>Upon reviewing our data, we find that it is numeric and that the date
+is the index. Notice also that weekends are missing from the records.
+One quick note: Using globals() to set frame names is sloppy. Now that
+we have our data, let's do some basic data analysis and check it.</p>
+</div>
+<div class="cell markdown">
+<p>Descriptive Statistics about the Data are generated by .describe().
+Descriptive statistics include those that summarize the central
+tendency, dispersion, and shape of a dataset’s distribution, excluding
+NaN values. It is applicable to numeric and object series, as well as
+mixed DataFrame column sets. Depending on what is provided, the output
+will vary. For more information, please refer to the notes below.</p>
+</div>
+<div class="cell code" data-execution_count="3"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:53.791695Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:53.791196Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:53.820014Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:53.819005Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:53.791672Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary Stats</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>AAPL.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Adj Close</th>
+      <th>Volume</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>251.000000</td>
+      <td>251.000000</td>
+      <td>251.000000</td>
+      <td>251.000000</td>
+      <td>251.000000</td>
+      <td>2.510000e+02</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>154.640080</td>
+      <td>156.528367</td>
+      <td>153.073347</td>
+      <td>154.949442</td>
+      <td>154.514557</td>
+      <td>7.234102e+07</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>14.362077</td>
+      <td>14.153116</td>
+      <td>14.666343</td>
+      <td>14.441561</td>
+      <td>14.548844</td>
+      <td>2.236067e+07</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>126.010002</td>
+      <td>127.769997</td>
+      <td>124.169998</td>
+      <td>125.019997</td>
+      <td>124.656982</td>
+      <td>3.519590e+07</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>144.299995</td>
+      <td>146.680000</td>
+      <td>142.649994</td>
+      <td>144.949997</td>
+      <td>144.254913</td>
+      <td>5.596360e+07</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>152.350006</td>
+      <td>154.330002</td>
+      <td>150.779999</td>
+      <td>152.740005</td>
+      <td>152.131577</td>
+      <td>6.874980e+07</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>165.070000</td>
+      <td>166.519997</td>
+      <td>164.114998</td>
+      <td>165.455002</td>
+      <td>165.051704</td>
+      <td>8.161725e+07</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>187.929993</td>
+      <td>189.899994</td>
+      <td>187.600006</td>
+      <td>189.250000</td>
+      <td>189.250000</td>
+      <td>1.647624e+08</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code calculates summary statistics for the stock data of
+the company represented by the ticker symbol "AAPL," which is Apple
+Inc.</p>
+<p>To explain it in plain English, the code uses the
+<code>describe()</code> function on the <code>AAPL</code> variable,
+which contains the historical stock data for Apple Inc. The
+<code>describe()</code> function calculates various summary statistics
+for the data, including count, mean, standard deviation, minimum value,
+quartiles, and maximum value.</p>
+<p>By calling <code>describe()</code> on the <code>AAPL</code> dataset,
+the code provides an overview of the statistical characteristics of the
+stock data. This summary includes information such as the total number
+of data points available, the average value of the stock, the spread of
+the data around the mean, and the range of values observed.</p>
+<p>By using this code, Apple Inc. stock data is analyzed statistically,
+providing insight into its distribution and key numerical values.</p>
+</div>
+<div class="cell markdown">
+<p>Weekends are not included in the data, so we only have 255 records in
+a year.</p>
+</div>
+<div class="cell markdown">
+<p>Information About the Data The .info() method prints information
+about a DataFrame, including the index, columns, non-null values, and
+memory usage.</p>
+</div>
+<div class="cell code" data-execution_count="4"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:53.822913Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:53.822587Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:53.838733Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:53.837707Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:53.822889Z&quot;}">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># General info</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>AAPL.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+DatetimeIndex: 251 entries, 2022-06-29 to 2023-06-28
+Data columns (total 7 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   Open          251 non-null    float64
+ 1   High          251 non-null    float64
+ 2   Low           251 non-null    float64
+ 3   Close         251 non-null    float64
+ 4   Adj Close     251 non-null    float64
+ 5   Volume        251 non-null    int64  
+ 6   company_name  251 non-null    object 
+dtypes: float64(5), int64(1), object(1)
+memory usage: 15.7+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code retrieves general information about the stock
+represented by the ticker symbol "AAPL," which corresponds to Apple Inc.
+Specifically, it calls the "info()" function on the AAPL variable. The
+<code>info()</code> function provides an overview of the available
+information about the stock. It displays details such as the data type
+of the stock data, the number of non-null values, and the memory usage.
+Additionally, it may provide information on the source of the data, any
+specific attributes or metadata associated with the stock, and other
+relevant details. It is useful for understanding the stock's structure
+and properties. The report provides insights into the quality and
+limitations of the available information. It can also help identify
+missing or incomplete data, which is important for performing accurate
+analysis or making informed decisions based on the stock data.</p>
+<p>Overall, by executing <code>info()</code> on the <code>AAPL</code>
+dataset, this code provides a concise summary of the general information
+and characteristics of the stock data for Apple Inc.</p>
+</div>
+<div class="cell markdown">
+<p>Closing Price is the last price at which the stock trades during a
+regular trading day. In order to track a stock's performance over time,
+investors use its closing price as a benchmark.</p>
+</div>
+<div class="cell code" data-execution_count="5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:53.840426Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:53.840062Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:55.844882Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:55.844047Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:53.840397Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s see a historical view of the closing price</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">1.25</span>, bottom<span class="op">=</span><span class="fl">1.2</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, company <span class="kw">in</span> <span class="bu">enumerate</span>(company_list, <span class="dv">1</span>):</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, i)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    company[<span class="st">&#39;Adj Close&#39;</span>].plot()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Adj Close&#39;</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="va">None</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&quot;Closing Price of </span><span class="sc">{</span>tech_list[i <span class="op">-</span> <span class="dv">1</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/e162e5cd4ff3b32fd1595092e7d330bc2b275b79.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Matplotlib is used to visualize the closing prices of a set of tech
+companies. To explain it in plain English, the code starts by setting up
+the figure size and adjusting the subplots' layout to ensure they are
+properly positioned and spaced. It iterates over the company_list,
+containing stock data for the selected tech companies, in a loop. For
+each company, it creates a subplot within the larger figure. Each
+subplot plots the adjusted close prices (Adj Close) of the company's
+stock over time. The adjusted close price accounts for factors such as
+dividends, stock splits, or other corporate actions that may affect the
+stock price. In addition, the y-axis label is set to "Adj Close" to
+identify the type of data being plotted. It removes the x-axis label by
+setting it to None to avoid clutter. In addition, it sets the title of
+the subplot to indicate the closing price of the corresponding tech
+company. The title contains the ticker symbol of the company, which is
+retrieved from the tech_list. Finally, plt.tight_layout() is called to
+adjust the spacing between subplots and improve overall readability. It
+creates a figure with subplots displaying historical closing prices of a
+tech company. This tool provides insights into the relative performance
+of the selected tech companies by comparing stock price trends over
+time.</p>
+</div>
+<div class="cell markdown">
+<p>Volume of Sales refers to the amount of assets or securities that
+change hands over time, usually per day. A stock trading volume, for
+example, is the number of shares traded between its open and close each
+day. Technical traders use trading volume and changes in volume over
+time as inputs.</p>
+</div>
+<div class="cell code" data-execution_count="6"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:55.846023Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:55.845784Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:25:57.813805Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:25:57.812824Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:55.846001Z&quot;}">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Now let&#39;s plot the total volume of stock being traded each day</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">1.25</span>, bottom<span class="op">=</span><span class="fl">1.2</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, company <span class="kw">in</span> <span class="bu">enumerate</span>(company_list, <span class="dv">1</span>):</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, i)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    company[<span class="st">&#39;Volume&#39;</span>].plot()</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Volume&#39;</span>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="va">None</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&quot;Sales Volume for </span><span class="sc">{</span>tech_list[i <span class="op">-</span> <span class="dv">1</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/260c409c8bf72440fd34403f360e0130dc90f312.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>In the provided code, a graph of the volume of stock traded each day
+by a set of tech companies is generated using matplotlib. In plain
+English, the code starts by adjusting the figure size and the layout of
+the subplots to make sure they're positioned and spaced correctly.
+Following that, the program iterates over the stock data of the selected
+tech companies in a loop. For each company, it creates a subplot within
+the larger figure. The code plots the volume of stock traded over time
+as part of each subplot. The volume represents the total number of
+shares or units of the company's stock that were traded on a given day.
+To display volume data, the code sets the y-axis label to "Volume." It
+removes the x-axis label by setting it to <code>None</code> to avoid
+clutter. The code also sets the subplot's title to indicate the sales
+volume of the corresponding tech company. The title includes the ticker
+symbol of the company, which is retrieved from the
+<code>tech_list</code>.</p>
+<p>Finally, the <code>plt.tight_layout()</code> function is used to
+adjust the spacing between subplots and improve the overall readability
+of the chart. This code creates a figure with subplots that display the
+total number of shares traded each day for a technology company. This
+tool provides a visual representation of the trading activity and
+liquidity of stocks of selected tech companies over time. A plot
+provides insights into periods of high or low trading volume, which can
+be useful for assessing market trends.</p>
+</div>
+<div class="cell markdown">
+<p>Let's calculate the stock's moving average now that we've seen the
+closing price and volume traded each day.</p>
+</div>
+<div class="cell markdown">
+<p>What was the moving average of the various stocks? A moving average
+smooths out price data by creating a constantly updated average. An
+average is calculated over a specific time period, such as 10 days, 20
+minutes, 30 weeks, or any other period selected by the trader.</p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:25:57.815325Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:25:57.815048Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:00.107046Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:00.106271Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:25:57.815301Z&quot;}">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>ma_day <span class="op">=</span> [<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">50</span>]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ma <span class="kw">in</span> ma_day:</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> company <span class="kw">in</span> company_list:</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>        column_name <span class="op">=</span> <span class="ss">f&quot;MA for </span><span class="sc">{</span>ma<span class="sc">}</span><span class="ss"> days&quot;</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>        company[column_name] <span class="op">=</span> company[<span class="st">&#39;Adj Close&#39;</span>].rolling(ma).mean()</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>fig.set_figheight(<span class="dv">10</span>)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>fig.set_figwidth(<span class="dv">15</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>AAPL[[<span class="st">&#39;Adj Close&#39;</span>, <span class="st">&#39;MA for 10 days&#39;</span>, <span class="st">&#39;MA for 20 days&#39;</span>, <span class="st">&#39;MA for 50 days&#39;</span>]].plot(ax<span class="op">=</span>axes[<span class="dv">0</span>,<span class="dv">0</span>])</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;APPLE&#39;</span>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>GOOG[[<span class="st">&#39;Adj Close&#39;</span>, <span class="st">&#39;MA for 10 days&#39;</span>, <span class="st">&#39;MA for 20 days&#39;</span>, <span class="st">&#39;MA for 50 days&#39;</span>]].plot(ax<span class="op">=</span>axes[<span class="dv">0</span>,<span class="dv">1</span>])</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;GOOGLE&#39;</span>)</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>MSFT[[<span class="st">&#39;Adj Close&#39;</span>, <span class="st">&#39;MA for 10 days&#39;</span>, <span class="st">&#39;MA for 20 days&#39;</span>, <span class="st">&#39;MA for 50 days&#39;</span>]].plot(ax<span class="op">=</span>axes[<span class="dv">1</span>,<span class="dv">0</span>])</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;MICROSOFT&#39;</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>AMZN[[<span class="st">&#39;Adj Close&#39;</span>, <span class="st">&#39;MA for 10 days&#39;</span>, <span class="st">&#39;MA for 20 days&#39;</span>, <span class="st">&#39;MA for 50 days&#39;</span>]].plot(ax<span class="op">=</span>axes[<span class="dv">1</span>,<span class="dv">1</span>])</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;AMAZON&#39;</span>)</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/6bd2b7b10b97516932e1455d69f513f00f2927bf.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code calculates and plots moving averages (MA) for
+different time periods of the adjusted closing prices for a set of tech
+companies.</p>
+<p>To explain it in plain English, the code begins by defining a list
+called <code>ma_day</code> which contains the time periods (in days) for
+the moving averages to be calculated.</p>
+<p>Next, it enters a nested loop structure. Outer loop iterates over
+each time period specified in ma_day. The inner loop iterates over each
+company in the <code>company_list</code>. For each company, the code
+determines the moving average of the adjusted closing prices (Adj Close)
+for the specified time period. It creates a new column with a name that
+indicates the moving average period and assigns the calculated values to
+that column in the respective company's dataset. Subplots are then
+created using the <code>subplots()</code> function. It sets the height
+and width of the figure accordingly. Subplots are then plotted for each
+company's adjusted closing prices and calculated moving averages. Each
+subplot represents one company and displays the adjusted closing prices
+as well as the moving averages for different time periods. The code sets
+the title of each subplot to indicate the corresponding company's name,
+such as 'APPLE', 'GOOGLE', 'MICROSOFT', and 'AMAZON'. Finally, the
+<code>fig.tight_layout()</code> function is called to adjust the spacing
+between subplots and enhance the overall layout. In summary, this code
+calculates and visualizes the moving averages for different time periods
+of A set of tech companies' adjusted closing prices. In addition to
+providing insight into the trends and patterns in stock prices over
+time, moving averages can also be used to further analyze and interpret
+the data. Using the plots, you can identify potential trends or trading
+signals by comparing the stock prices with their corresponding moving
+averages.</p>
+</div>
+<div class="cell markdown">
+<p>As we can see from the graph, the best values to measure the moving
+average are 10 and 20 days, since we are still able to detect trends in
+the data without being affected by noise.</p>
+</div>
+<div class="cell markdown">
+<p>On average, how much did the stock return each day?</p>
+</div>
+<div class="cell markdown">
+<p>Let's dive a little deeper now that we've done some baseline
+analysis. Now let's analyze the stock's risk. To do so, we must take
+into account the stock's daily changes, not just its absolute value.
+We'll use Pandas to retrieve Apple's daily returns.</p>
+</div>
+<div class="cell code" data-execution_count="8"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:00.108721Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:00.108273Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:02.111301Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:02.110345Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:00.108697Z&quot;}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We&#39;ll use pct_change to find the percent change for each day</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> company <span class="kw">in</span> company_list:</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    company[<span class="st">&#39;Daily Return&#39;</span>] <span class="op">=</span> company[<span class="st">&#39;Adj Close&#39;</span>].pct_change()</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Then we&#39;ll plot the daily return percentage</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>fig.set_figheight(<span class="dv">10</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>fig.set_figwidth(<span class="dv">15</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>AAPL[<span class="st">&#39;Daily Return&#39;</span>].plot(ax<span class="op">=</span>axes[<span class="dv">0</span>,<span class="dv">0</span>], legend<span class="op">=</span><span class="va">True</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;APPLE&#39;</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>GOOG[<span class="st">&#39;Daily Return&#39;</span>].plot(ax<span class="op">=</span>axes[<span class="dv">0</span>,<span class="dv">1</span>], legend<span class="op">=</span><span class="va">True</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;GOOGLE&#39;</span>)</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>MSFT[<span class="st">&#39;Daily Return&#39;</span>].plot(ax<span class="op">=</span>axes[<span class="dv">1</span>,<span class="dv">0</span>], legend<span class="op">=</span><span class="va">True</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;MICROSOFT&#39;</span>)</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>AMZN[<span class="st">&#39;Daily Return&#39;</span>].plot(ax<span class="op">=</span>axes[<span class="dv">1</span>,<span class="dv">1</span>], legend<span class="op">=</span><span class="va">True</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;AMAZON&#39;</span>)</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/7ce40f5adb2eec2c88e4c19a10516fd74ec02b35.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code calculates and plots the daily percentage returns
+for the adjusted closing prices of a set of tech companies. Using a
+loop, it iterates over each company in the company_list. Within the
+loop, it calculates the daily percentage change
+(<code>Daily Return</code>) for the adjusted closing prices
+(<code>Adj Close</code>) of each company. The percentage change
+represents the rate of change from one day to the next, indicating the
+daily return on investment. The code creates a graph with subplots using
+the subplots() function. It sets the height and width of the figure
+accordingly. Subplots show the daily return percentages for each
+company. On the y-axis, each subplot represents one company and displays
+its daily return values. The x-axis represents the time period. Each
+subplot is titled according to the name of the company, such as 'APPLE',
+'GOOGLE', 'MICROSOFT', and 'AMAZON'. Data points are visually
+represented by plot markers and linestyles. To make sure the plot
+elements are understood, the legend is included, as well as a function
+to adjust the spacing between the subplots and enhance the overall
+layout. To summarize, this code calculates and visualizes the daily
+percentage returns for a set of tech companies based on their adjusted
+closing prices. Daily returns provide insight into the stock's
+performance and volatility on a day-to-day basis. Comparing the daily
+returns of different companies enables the identification of patterns or
+trends in their stock performance.</p>
+</div>
+<div class="cell markdown">
+<p>Now let's look at a histogram of the average daily return. On the
+same figure, we will create both a histogram and kde plot using
+seaborn.</p>
+</div>
+<div class="cell code" data-execution_count="9"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:02.112878Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:02.112406Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:03.585950Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:03.585007Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:02.112856Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">9</span>))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, company <span class="kw">in</span> <span class="bu">enumerate</span>(company_list, <span class="dv">1</span>):</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, i)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    company[<span class="st">&#39;Daily Return&#39;</span>].hist(bins<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Daily Return&#39;</span>)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Counts&#39;</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;</span><span class="sc">{</span>company_name[i <span class="op">-</span> <span class="dv">1</span>]<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/075dfcd98dd353cd0a5e6a7adeac36160a252bd5.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates a set of histograms to visualize the
+distribution of daily percentage returns for a set of tech
+companies.</p>
+<p>To explain it in plain English, the code starts by setting up the
+figure size using <code>plt.figure(figsize=(12, 9))</code>, which
+determines the dimensions of the overall figure.</p>
+<p>Next, it enters a loop that iterates over the
+<code>company_list</code>, which contains the stock data for the
+selected tech companies. For each company, it creates a subplot within
+the larger figure. For each subplot, it plots a histogram using the
+<code>hist()</code> function. Histograms display the frequency or count
+of occurrences of different daily return values for each company. The
+number of bins for the histogram is set to 50, meaning the range of
+daily return values is divided into 50 intervals or groups. The x-axis
+is labeled "Daily Return" to indicate the type of data. It sets the
+y-axis label as "Counts" to represent the frequency of occurrence.</p>
+<p>Additionally, the code sets the subplot's title to indicate the
+corresponding company's name, which is retrieved from the
+<code>company_name</code> list.</p>
+<p>Finally, the <code>plt.tight_layout()</code> function is called to
+adjust the spacing between subplots and improve the overall layout.</p>
+<p>In summary, this code generates histograms to visualize the
+distribution of daily percentage returns for a set of tech companies. In
+addition to providing insight into the frequency and concentration of
+different return values, histograms allow us to better understand the
+stock's risk and variability. By using the plot layout, different
+companies' return distributions can be compared and their performance
+and risk profiles can be analyzed.</p>
+</div>
+<div class="cell markdown">
+<p>How did the closing prices of different stocks correlate?</p>
+</div>
+<div class="cell markdown">
+<p>Correlation measures the degree to which two variables move in
+relation to each other and must fall between -1.0 and +1.0. However,
+correlation does not tell us if x causes y or vice versa, or if the
+association is due to a third factor. We want to analyze the returns of
+all the stocks on our list. For each stock dataframe, let's build a
+DataFrame that contains all the ['Close'] columns.</p>
+</div>
+<div class="cell code" data-execution_count="10"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:03.589271Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:03.588977Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:03.779388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:03.778569Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:03.589245Z&quot;}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grab all the closing prices for the tech stock list into one DataFrame</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>closing_df <span class="op">=</span> pdr.get_data_yahoo(tech_list, start<span class="op">=</span>start, end<span class="op">=</span>end)[<span class="st">&#39;Adj Close&#39;</span>]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Make a new tech returns DataFrame</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>tech_rets <span class="op">=</span> closing_df.pct_change()</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>tech_rets.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[*********************100%***********************]  4 of 4 completed
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>AAPL</th>
+      <th>AMZN</th>
+      <th>GOOG</th>
+      <th>MSFT</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2022-06-29</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2022-06-30</th>
+      <td>-0.018028</td>
+      <td>-0.024881</td>
+      <td>-0.025691</td>
+      <td>-0.013179</td>
+    </tr>
+    <tr>
+      <th>2022-07-01</th>
+      <td>0.016164</td>
+      <td>0.031541</td>
+      <td>-0.002665</td>
+      <td>0.010707</td>
+    </tr>
+    <tr>
+      <th>2022-07-05</th>
+      <td>0.018930</td>
+      <td>0.035962</td>
+      <td>0.044059</td>
+      <td>0.012597</td>
+    </tr>
+    <tr>
+      <th>2022-07-06</th>
+      <td>0.009607</td>
+      <td>0.007313</td>
+      <td>0.011648</td>
+      <td>0.012783</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code retrieves the adjusted closing prices for a list of
+tech stocks and calculates the daily percentage returns for each
+stock.</p>
+<p>To explain it in plain English, the code begins by using the
+<code>pdr.get_data_yahoo()</code> function to fetch the adjusted closing
+prices of the tech stocks listed in <code>tech_list</code>. The data is
+retrieved from Yahoo Finance and covers the specified start and end
+dates. In the closing_df DataFrame, each column represents a different
+tech stock, and each row represents a specific date. The DataFrame
+provides a consolidated view of the adjusted closing prices for all the
+tech stocks in the list. After that, the code calculates the daily
+percentage returns using the <code>pct_change()</code> function on the
+<code>closing_df</code> DataFrame. The function computes the percentage
+change from one row to the next, representing the daily return on
+investment for each stock. The resulting DataFrame, named tech_rets,
+contains the daily percentage returns for each tech stock. The structure
+is similar to <code>closing_df</code>, with each column representing a
+different tech stock, and each row representing a specific date.</p>
+<p>Finally, the code displays the first few rows of the
+<code>tech_rets</code> DataFrame, providing an initial view of the
+calculated daily percentage returns for the tech stocks.</p>
+<p>In summary, this code retrieves the adjusted closing prices for a
+list of tech stocks and calculates the daily percentage returns for each
+stock. Based on their daily returns, the resulting DataFrame can be used
+for further analysis and comparison of tech stocks' performance and
+volatility.</p>
+</div>
+<div class="cell markdown">
+<p>We can now check how correlated two stocks are by comparing their
+daily percentage returns. Let's see how a sotck compares to itself.</p>
+</div>
+<div class="cell code" data-execution_count="11"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:03.780773Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:03.780477Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:04.414446Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:04.413676Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:03.780746Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Comparing Google to itself should show a perfectly linear relationship</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>sns.jointplot(x<span class="op">=</span><span class="st">&#39;GOOG&#39;</span>, y<span class="op">=</span><span class="st">&#39;GOOG&#39;</span>, data<span class="op">=</span>tech_rets, kind<span class="op">=</span><span class="st">&#39;scatter&#39;</span>, color<span class="op">=</span><span class="st">&#39;seagreen&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>&lt;seaborn.axisgrid.JointGrid at 0x7b6940ee1120&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/81b36860826074b9e1e6c25d5634ddb25daafad2.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates a joint plot to visualize the
+relationship between the daily percentage returns of Google's stock
+against itself. The code uses the seaborn library. A joint plot combines
+a scatter plot and histograms to display the relationship between two
+variables. Here, 'GOOG', representing Google's stock, is used as the x
+and y parameters for the joint plot. This means that both the x-axis and
+y-axis of the joint plot will represent the daily percentage returns of
+Google's stock. The 'kind' parameter indicates if the plot should
+include scatter data. The scatter plot will display the individual data
+points where the x-coordinate represents the daily returns of Google's
+stock, and the y-coordinate also represents the daily returns of
+Google's stock.</p>
+<p>This code generates a joint plot to visualize the relationship
+between Google's daily percentage returns against itself by setting the
+color parameter to 'seagreen'. Due to the fact that it compares Google's
+returns to itself, a perfectly linear relationship is expected, as it
+serves as a reference for evaluating correlations and patterns.</p>
+</div>
+<div class="cell code" data-execution_count="12"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:04.416190Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:04.415700Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:05.038063Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:05.037400Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:04.416162Z&quot;}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We&#39;ll use joinplot to compare the daily returns of Google and Microsoft</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>sns.jointplot(x<span class="op">=</span><span class="st">&#39;GOOG&#39;</span>, y<span class="op">=</span><span class="st">&#39;MSFT&#39;</span>, data<span class="op">=</span>tech_rets, kind<span class="op">=</span><span class="st">&#39;scatter&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>&lt;seaborn.axisgrid.JointGrid at 0x7b6940f072b0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/712e3752b9454008cd482ba986873962efee404f.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates a joint plot to compare the daily
+percentage returns of Google's stock and Microsoft's stock. To explain
+it in plain English, the code uses the seaborn library to create a joint
+plot, which combines a scatter plot and histograms to visualize the
+relationship between two variables. In this case, the
+<code>jointplot()</code> function is called with the <code>x</code>
+parameter set to 'GOOG', representing the daily percentage returns of
+Google's stock, and the <code>y</code> parameter set to 'MSFT',
+Microsoft's stock returns are represented as a percentage on a daily
+basis. This means that the x-axis of the joint plot represents the daily
+returns of Google's stock, and the y-axis represents the daily returns
+of Microsoft's stock.</p>
+<p>The <code>data</code> parameter is set to <code>tech_rets</code>,
+which is the DataFrame containing the calculated daily returns for the
+tech stocks.</p>
+<p>The <code>kind</code> parameter is set to 'scatter', indicating that
+the joint plot should include a scatter plot. The scatter plot will show
+individual data points where the x-coordinate represents the daily
+returns of Google's stock, and the y-coordinate represents the daily
+returns of Microsoft's stock. By combining this code, a visual
+comparison can be made between Google's and Microsoft's daily percentage
+returns. It provides insight into their performance and potential
+interaction by assessing the relationship and potential correlation
+between the two stocks' returns.</p>
+</div>
+<div class="cell markdown">
+<p>Therefore, if two stocks are perfectly (and positively) correlated, a
+linear relationship should exist between their daily return values.</p>
+<p>In our technology stock ticker list, Seaborn and Pandas make it very
+easy to repeat this comparison analysis. This plot can be automatically
+created using sns.pairplot()</p>
+</div>
+<div class="cell code" data-execution_count="13"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:05.040079Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:05.039454Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:10.297970Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:10.296927Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:05.040050Z&quot;}">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We can simply call pairplot on our DataFrame for an automatic visual analysis </span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co"># of all the comparisons</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>sns.pairplot(tech_rets, kind<span class="op">=</span><span class="st">&#39;reg&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7b694008e320&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/5a7435e1f03526bd66bc9891b3639e555afad467.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>A pair plot is generated with the provided code to automatically
+analyze and compare daily percentage returns from different tech stocks.
+The code generates a pair plot using the seaborn library, which creates
+a grid of scatter plots and histograms to visualize relationships
+between several variables by using the seaborn library.</p>
+<p>In this case, the <code>pairplot()</code> function is called with the
+<code>tech_rets</code> DataFrame as the data source. The DataFrame
+contains the daily percentage returns for multiple tech stocks. The
+'kind' parameter indicates that regression lines should be included in
+the scatter plot. Regression lines help visualize the overall trend or
+relationship between the variables being compared. Pairplot()
+automatically generates scatter plots and histograms using the tech_rets
+DataFrame. The scatter plots compare the daily returns of two different
+tech stocks, while the histograms show their distribution.</p>
+<p>The pair plot allows for a comprehensive visual analysis of the
+relationships and comparisons between the daily percentage returns of
+the tech stocks. Identifying correlations, patterns, and outliers allows
+further insight into the performance and interplay of tech stocks.</p>
+</div>
+<div class="cell markdown">
+<p>All the daily returns between all the stocks can be seen above. There
+is an interesting correlation between Google and Amazon daily returns
+based on a quick glance. This individual comparison might be interesting
+to investigate.</p>
+<p>While sns.pairplot() is fantastic, we can also manipulate the figure
+with sns.PairGrid(), including what kinds of plots appear in the
+diagonal, upper triangle, and lower triangle. The following example
+illustrates how seaborn can be used to achieve this goal.</p>
+</div>
+<div class="cell code" data-execution_count="14"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:10.299092Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:10.298881Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:14.829746Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:14.828986Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:10.299073Z&quot;}">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up our figure by naming it returns_fig, call PairPLot on the DataFrame</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>return_fig <span class="op">=</span> sns.PairGrid(tech_rets.dropna())</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Using map_upper we can specify what the upper triangle will look like.</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>return_fig.map_upper(plt.scatter, color<span class="op">=</span><span class="st">&#39;purple&#39;</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co"># We can also define the lower triangle in the figure, inclufing the plot type (kde) </span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="co"># or the color map (BluePurple)</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>return_fig.map_lower(sns.kdeplot, cmap<span class="op">=</span><span class="st">&#39;cool_d&#39;</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Finally we&#39;ll define the diagonal as a series of histogram plots of the daily return</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>return_fig.map_diag(plt.hist, bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7b69410b5c60&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/387286ddc002c537e2e3fcd0ac94be313e696d2c.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code sets up a figure and configures the layout of
+subplots for visualizing the relationships and distributions of the
+daily percentage returns of tech stocks.</p>
+<p>By using the seaborn library, the code creates a PairGrid figure
+named return_fig. A PairGrid is a grid of subplots that allows for
+detailed visualization and customization of pairwise relationships
+between variables. It uses the tech_rets DataFrame. It contains the
+daily percentage returns of the tech stocks. PairGrid's upper triangle
+is defined by map_upper(). We choose the scatter plot as the plot type,
+and we set the color to purple. This means that the upper triangle of
+the PairGrid will display scatter plots representing the relationships
+between the daily returns of different tech stocks. The lower triangle
+of the PairGrid is defined using the map_lower() function. The plot type
+is kernel density estimation (kde), and the color map is cool_d. This
+means that the lower triangle of the PairGrid will display kde plots
+representing the distributions of the daily returns for different tech
+stocks. To define the diagonal of the PairGrid, the map_diag() function
+is called. Hexagon plots are chosen as the plot type, and 30 bins are
+selected as the number of bins. As a result, the diagonal of the
+PairGrid displays histograms that represent the daily return
+distribution for each tech stock individually. To visualize the
+relationships and distributions of the daily percentage returns of tech
+stocks, this code creates a customized figure with a PairGrid layout. In
+addition to highlighting patterns, correlations, and distributions in
+the data, it allows for a comprehensive analysis of pairwise
+relationships.</p>
+</div>
+<div class="cell code" data-execution_count="15"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:14.831337Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:14.830909Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:19.176374Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:19.175420Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:14.831310Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up our figure by naming it returns_fig, call PairPLot on the DataFrame</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>returns_fig <span class="op">=</span> sns.PairGrid(closing_df)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Using map_upper we can specify what the upper triangle will look like.</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>returns_fig.map_upper(plt.scatter,color<span class="op">=</span><span class="st">&#39;purple&#39;</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># We can also define the lower triangle in the figure, inclufing the plot type (kde) or the color map (BluePurple)</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>returns_fig.map_lower(sns.kdeplot,cmap<span class="op">=</span><span class="st">&#39;cool_d&#39;</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Finally we&#39;ll define the diagonal as a series of histogram plots of the daily return</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>returns_fig.map_diag(plt.hist,bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7b69357328f0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/e475266182a3e8958dd52ef542c0e26256f509f7.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code sets up a figure and configures the layout of
+subplots for visualizing the relationships and distributions of the
+closing prices of tech stocks. In plain English, it creates a PairGrid
+figure named returns_fig. A PairGrid is a grid of subplots that allows
+for detailed visualization and customization of pairwise relationships
+between variables.</p>
+<p>The <code>closing_df</code> DataFrame, which contains the closing
+prices of the tech stocks, is used as the data source for the
+PairGrid.</p>
+<p>The <code>map_upper()</code> function is called to define the
+appearance of the upper triangle of the PairGrid. The plot type is
+scatter plot, and the color is purple. This means that the upper
+triangle of the PairGrid will display scatter plots representing the
+relationships between the closing prices of different tech stocks. A
+map_lower() function can be called to define the look of the lower
+triangle. The plot type is kernel density estimation (kde), and the
+color map is cool_d. This means that the lower triangle of the PairGrid
+will display kde plots representing the distributions of the closing
+prices for different tech stocks. The diagonal of the PairGrid is
+defined using the map_diag() function. The plot type is histogram, and
+the number of bins is 30. This means that the diagonal of the PairGrid
+will display histograms representing the distribution of the closing
+prices for each individual tech stock. To visualize the relationship and
+distribution of closing prices of tech stocks, this code creates a
+customized figure with a PairGrid layout. Using this method, you can
+analyze pairwise relationships in depth, highlighting patterns,
+correlations, and distributions.</p>
+</div>
+<div class="cell markdown">
+<p>Also, we could plot the correlation between the stocks' daily return
+values using a correlation plot. A comparison of Microsoft and Apple's
+closing prices reveals an interesting relationship.</p>
+</div>
+<div class="cell code" data-execution_count="16"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:19.177829Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:19.177544Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:19.828498Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:19.827545Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:19.177805Z&quot;}">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">10</span>))</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>sns.heatmap(tech_rets.corr(), annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;summer&#39;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation of stock return&#39;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(closing_df.corr(), annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;summer&#39;</span>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation of stock closing price&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>Text(0.5, 1.0, &#39;Correlation of stock closing price&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/f32060637e4f0ba87eb5eba9518b08c9c6d9faff.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates two heatmaps to visualize the correlation
+between the daily percentage returns of tech stocks and the correlation
+between the closing prices of tech stocks.</p>
+<p>To explain it in plain English, the code begins by setting up the
+figure size using <code>plt.figure(figsize=(12, 10))</code>, which
+determines the dimensions of the overall figure.</p>
+<p>Next, it creates a subplot layout with two rows and two columns using
+<code>plt.subplot(2, 2, 1)</code> and <code>plt.subplot(2, 2, 2)</code>.
+This layout allows for two heatmaps to be displayed side by side. The
+code generates the first heatmap using the <code>sns.heatmap()</code>
+function on the <code>tech_rets.corr()</code> DataFrame. The heatmap
+represents the correlation matrix of tech stock returns on a daily
+basis. Colors represent correlation values, with higher values
+indicating stronger positive or negative correlations. Heatmaps with
+annot=True are annotated numerically with correlation values. This
+parameter sets the color scheme to a summer-themed palette. The subplot
+is given the title 'Correlation of stock return'. A second heatmap is
+generated in the second subplot (top-right), using the
+<code>closing_df.corr()</code> DataFrame. The heatmap represents the
+correlation matrix of the closing prices of tech stocks. Colors indicate
+correlation values, with higher values indicating stronger positive or
+negative correlations. The <code>annot=True</code> parameter adds
+numerical annotations to the heatmap, indicating correlations.
+Cmap='summer' sets a summer-themed color scheme. The subplot is given
+the title 'Correlation of stock closing price'. The code provides two
+heatmaps that illustrate the correlation between the daily percentage
+returns and the closing prices of the tech stocks. The heatmaps help
+identify potential relationships and dependencies among stocks, allowing
+insight into their performance and potential diversification.</p>
+</div>
+<div class="cell markdown">
+<p>Microsoft and Amazon had the strongest correlation of daily stock
+returns numerically and visually, just as we suspected from our
+PairPlot. Interestingly, all the technology companies are positively
+correlated.</p>
+</div>
+<div class="cell markdown">
+<p>By investing in a particular stock, how much value are we putting at
+risk?</p>
+</div>
+<div class="cell markdown">
+<p>The most basic way to quantify risk is to compare the expected return
+with the standard deviation of the daily percentage returns based on the
+information we've gathered.</p>
+</div>
+<div class="cell code" data-execution_count="17"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:19.829882Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:19.829590Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:20.270198Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:20.269240Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:19.829858Z&quot;}">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>rets <span class="op">=</span> tech_rets.dropna()</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>area <span class="op">=</span> np.pi <span class="op">*</span> <span class="dv">20</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>plt.scatter(rets.mean(), rets.std(), s<span class="op">=</span>area)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Expected return&#39;</span>)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Risk&#39;</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> label, x, y <span class="kw">in</span> <span class="bu">zip</span>(rets.columns, rets.mean(), rets.std()):</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>    plt.annotate(label, xy<span class="op">=</span>(x, y), xytext<span class="op">=</span>(<span class="dv">50</span>, <span class="dv">50</span>), textcoords<span class="op">=</span><span class="st">&#39;offset points&#39;</span>, ha<span class="op">=</span><span class="st">&#39;right&#39;</span>, va<span class="op">=</span><span class="st">&#39;bottom&#39;</span>, </span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>                 arrowprops<span class="op">=</span><span class="bu">dict</span>(arrowstyle<span class="op">=</span><span class="st">&#39;-&#39;</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, connectionstyle<span class="op">=</span><span class="st">&#39;arc3,rad=-0.3&#39;</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/52d5aac0aa30800189c5542b95a01a274813a540.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates a scatter plot to visualize the
+relationship between the expected returns and the risk of tech
+stocks.</p>
+<p>To explain it in plain English, the code starts by dropping any rows
+with missing values (NaN) from the <code>tech_rets</code> DataFrame and
+assigns the resulting DataFrame to a new variable called
+<code>rets</code>.</p>
+<p>Next, it defines the size of the markers in the scatter plot by
+calculating the area using the formula <code>np.pi * 20</code>. This
+determines the size of the markers representing the tech stocks on the
+plot.</p>
+<p>The code sets up the figure size using
+<code>plt.figure(figsize=(10, 8))</code>, which determines the
+dimensions of the overall figure.</p>
+<p>Then, it generates the scatter plot by calling
+<code>plt.scatter()</code> with the <code>rets.mean()</code> (expected
+return) on the x-axis and <code>rets.std()</code> (risk) on the y-axis.
+The size of the markers is set using the <code>s</code> parameter.</p>
+<p>The x-axis is labeled as 'Expected return', and the y-axis is labeled
+as 'Risk' using the <code>plt.xlabel()</code> and
+<code>plt.ylabel()</code> functions, respectively.</p>
+<p>It annotates each point on the scatter plot with the appropriate tech
+stock label using a loop. Each stock's label, x-coordinate (mean
+return), and y-coordinate (standard deviation of return) are retrieved
+from the rets DataFrame. This function is used to add the label text,
+specify the position, and customize the appearance of the annotation to
+the plot. As a whole, this code generates a scatter plot illustrating
+the relationship between tech stocks' expected returns and their risks.
+Investment decisions are based on the trade-off between expected returns
+and risk tolerance and allow the identification of stocks with different
+risk-return profiles. The annotations provide additional information by
+labeling each point with the corresponding stock name, improving the
+readability of the plot.</p>
+</div>
+<div class="cell markdown">
+<p>APPLE INC. stock price prediction:</p>
+</div>
+<div class="cell code" data-execution_count="18"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:20.272398Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:20.271770Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:20.514582Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:20.513699Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:20.272366Z&quot;}">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the stock quote</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pdr.get_data_yahoo(<span class="st">&#39;AAPL&#39;</span>, start<span class="op">=</span><span class="st">&#39;2012-01-01&#39;</span>, end<span class="op">=</span>datetime.now())</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Show teh data</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[*********************100%***********************]  1 of 1 completed
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="18">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Adj Close</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2012-01-03</th>
+      <td>14.621429</td>
+      <td>14.732143</td>
+      <td>14.607143</td>
+      <td>14.686786</td>
+      <td>12.482927</td>
+      <td>302220800</td>
+    </tr>
+    <tr>
+      <th>2012-01-04</th>
+      <td>14.642857</td>
+      <td>14.810000</td>
+      <td>14.617143</td>
+      <td>14.765714</td>
+      <td>12.550009</td>
+      <td>260022000</td>
+    </tr>
+    <tr>
+      <th>2012-01-05</th>
+      <td>14.819643</td>
+      <td>14.948214</td>
+      <td>14.738214</td>
+      <td>14.929643</td>
+      <td>12.689342</td>
+      <td>271269600</td>
+    </tr>
+    <tr>
+      <th>2012-01-06</th>
+      <td>14.991786</td>
+      <td>15.098214</td>
+      <td>14.972143</td>
+      <td>15.085714</td>
+      <td>12.821995</td>
+      <td>318292800</td>
+    </tr>
+    <tr>
+      <th>2012-01-09</th>
+      <td>15.196429</td>
+      <td>15.276786</td>
+      <td>15.048214</td>
+      <td>15.061786</td>
+      <td>12.801654</td>
+      <td>394024400</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2023-06-22</th>
+      <td>183.740005</td>
+      <td>187.050003</td>
+      <td>183.669998</td>
+      <td>187.000000</td>
+      <td>187.000000</td>
+      <td>51245300</td>
+    </tr>
+    <tr>
+      <th>2023-06-23</th>
+      <td>185.550003</td>
+      <td>187.559998</td>
+      <td>185.009995</td>
+      <td>186.679993</td>
+      <td>186.679993</td>
+      <td>53079300</td>
+    </tr>
+    <tr>
+      <th>2023-06-26</th>
+      <td>186.830002</td>
+      <td>188.050003</td>
+      <td>185.229996</td>
+      <td>185.270004</td>
+      <td>185.270004</td>
+      <td>48088700</td>
+    </tr>
+    <tr>
+      <th>2023-06-27</th>
+      <td>185.889999</td>
+      <td>188.389999</td>
+      <td>185.669998</td>
+      <td>188.059998</td>
+      <td>188.059998</td>
+      <td>50730800</td>
+    </tr>
+    <tr>
+      <th>2023-06-28</th>
+      <td>187.929993</td>
+      <td>189.899994</td>
+      <td>187.600006</td>
+      <td>189.250000</td>
+      <td>189.250000</td>
+      <td>51133200</td>
+    </tr>
+  </tbody>
+</table>
+<p>2890 rows × 6 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>This code retrieves Apple Inc. stock quote data. (AAPL) from Yahoo
+Finance for a specific time period.</p>
+<p>To explain it in plain English, the code uses the
+<code>pdr.get_data_yahoo()</code> function to fetch the stock quote data
+for the ticker symbol 'AAPL'. The data is retrieved from Yahoo
+Finance.</p>
+<p>The <code>start</code> parameter is set to '2012-01-01', indicating
+the starting date for which the stock quote data is requested.</p>
+<p>The <code>end</code> parameter is set to <code>datetime.now()</code>,
+representing the current date and time. This specifies the end date for
+the retrieved data, ensuring that it includes the most recent available
+information. Stock quote data is stored in a DataFrame named
+<code>df</code>. A DataFrame contains various stock information, such as
+the opening price, closing price, high and low prices, volume, and
+adjusted closing price. Each row in the DataFrame represents a specific
+date, and each column represents a different attribute of the stock.</p>
+<p>By displaying the <code>df</code> DataFrame, the code provides an
+overview of the historical prices and other relevant information for
+Apple Inc.'s stock. The code retrieves and displays Apple Inc. stock
+quote information. Further analysis and examination of the stock's
+historical performance and characteristics is possible through Yahoo
+Finance.</p>
+</div>
+<div class="cell code" data-execution_count="19"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:20.516465Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:20.515720Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:20.961387Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:20.960525Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:20.516436Z&quot;}">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>,<span class="dv">6</span>))</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Close Price History&#39;</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>plt.plot(df[<span class="st">&#39;Close&#39;</span>])</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Close Price USD ($)&#39;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/3256b0ea8e58fb40a9735d846ccf5a3beb18cb3a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code generates a line plot to visualize the historical
+closing price of a stock.</p>
+<p>To explain it in plain English, the code starts by setting up the
+figure size using <code>plt.figure(figsize=(16,6))</code>, which
+determines the dimensions of the overall figure.</p>
+<p>Next, it sets the title of the plot as 'Close Price History' using
+<code>plt.title()</code>, providing a descriptive title for the
+plot.</p>
+<p>Then, it plots the closing price data using
+<code>plt.plot(df['Close'])</code>. It has the historical closing prices
+for each stock listed in the 'Close' column. It uses a line plot to
+connect the closing price values over time, allowing for a visual
+representation of the price movement. The x-axis is labeled 'Date' using
+plt.xlabel(), indicating that the horizontal axis represents different
+dates. The fontsize parameter is set to 18 to adjust the size of the
+label for better readability. The plot y-axis is labeled as 'Close Price
+USD ($)' with plt.ylabel(), indicating the stock's closing price in USD.
+The fontsize parameter is set to 18 to adjust the size of the label for
+better readability.</p>
+<p>Finally, the plot is displayed using <code>plt.show()</code>, showing
+the line plot of the historical closing prices.</p>
+<p>Overall, this code generates a line plot that visualizes the
+historical closing price of a stock over time. It allows for observation
+of patterns, trends, and potential changes in a stock's value by
+providing a straightforward representation of its price trend.</p>
+</div>
+<div class="cell code" data-execution_count="20"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:20.962774Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:20.962489Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:20.970094Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:20.969248Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:20.962752Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new dataframe with only the &#39;Close column </span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> df.<span class="bu">filter</span>([<span class="st">&#39;Close&#39;</span>])</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the dataframe to a numpy array</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> data.values</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the number of rows to train the model on</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>training_data_len <span class="op">=</span> <span class="bu">int</span>(np.ceil( <span class="bu">len</span>(dataset) <span class="op">*</span> <span class="fl">.95</span> ))</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>training_data_len</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>2746</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code prepares the data for training a model by
+determining the length of the training data. In plain English, the code
+performs the following steps: 1. It creates a new DataFrame named
+<code>data</code> that includes only the 'Close' column from the
+<code>df</code> DataFrame. This column represents a stock's closing
+price. The DataFrame is converted into an array using Numpy, and the
+array is assigned to the dataset variable. As a result of this
+conversion, the data can be more easily manipulated and analyzed. The
+training data length is calculated by multiplying the total number of
+rows in the <code>dataset</code> array by 0.95 (95%). The result is then
+rounded up to the nearest whole number using <code>np.ceil()</code> to
+improve the likelihood that the training data includes a significant
+portion of the data. The calculated length of the training data is
+stored in the variable <code>training_data_len</code>.</p>
+<p>In this code, the 'Close' column is extracted from the dataset,
+converted into a numpy array, and the training data length is determined
+based on a specified percentage (95%) of the entire dataset. During the
+training process, the length of the training data determines the number
+of data points that will be used to build the model's predictive
+capability.</p>
+</div>
+<div class="cell code" data-execution_count="21"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:20.971791Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:20.971122Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:21.041161Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:21.040530Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:20.971769Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Scale the data</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> MinMaxScaler(feature_range<span class="op">=</span>(<span class="dv">0</span>,<span class="dv">1</span>))</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>scaled_data <span class="op">=</span> scaler.fit_transform(dataset)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>scaled_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>array([[0.0042172 ],
+       [0.00466744],
+       [0.00560256],
+       ...,
+       [0.97729641],
+       [0.99321172],
+       [1.        ]])</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code performs data scaling on a given dataset using the
+Min-Max scaling technique. In plain English, the code uses the
+MinMaxScaler class from the Sklearn.preprocessing module. Scaling is a
+common preprocessing step that transforms the data to a specific range.
+First, an instance of the MinMaxScaler class is created and assigned to
+the variable scaler. As a result, the scaler object is called using the
+fit_transform() method, passing the dataset as the transform data for
+the feature_range parameter. This method fits the scaler on the data and
+simultaneously applies the scaling transformation. Scaled data is stored
+in the variable scaled_data. Throughout the array, each value is a
+scaled version of its corresponding value in the original dataset,
+ensuring that all values fall within a specified range. The code
+converts the data to a standard range by using Min-Max scaling on the
+given dataset. Various machine learning algorithms and techniques that
+assume normalized input can benefit from scaling the data. By bringing
+all values within a common scale, it helps maintain data integrity and
+comparability.</p>
+</div>
+<div class="cell code" data-execution_count="22"
+data-_kg_hide-output="true"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:21.042987Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:21.042028Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:26:21.054628Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:26:21.053555Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:21.042960Z&quot;}">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the training data set </span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the scaled training data set</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> scaled_data[<span class="dv">0</span>:<span class="bu">int</span>(training_data_len), :]</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into x_train and y_train data sets</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> []</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> []</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">60</span>, <span class="bu">len</span>(train_data)):</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    x_train.append(train_data[i<span class="op">-</span><span class="dv">60</span>:i, <span class="dv">0</span>])</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>    y_train.append(train_data[i, <span class="dv">0</span>])</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i<span class="op">&lt;=</span> <span class="dv">61</span>:</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(x_train)</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(y_train)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>()</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the x_train and y_train to numpy arrays </span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>x_train, y_train <span class="op">=</span> np.array(x_train), np.array(y_train)</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Reshape the data</span></span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> np.reshape(x_train, (x_train.shape[<span class="dv">0</span>], x_train.shape[<span class="dv">1</span>], <span class="dv">1</span>))</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a><span class="co"># x_train.shape</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[array([0.0042172 , 0.00466744, 0.00560256, 0.00649286, 0.00635636,
+       0.00666399, 0.00652341, 0.00628709, 0.00596519, 0.00696143,
+       0.00785988, 0.00758281, 0.00606502, 0.00751354, 0.00608743,
+       0.01143533, 0.01102177, 0.01156165, 0.01272901, 0.01343595,
+       0.01337687, 0.01315889, 0.01408789, 0.01496189, 0.01595202,
+       0.0175513 , 0.02091079, 0.02096172, 0.02283196, 0.02422954,
+       0.02182758, 0.02275251, 0.02273417, 0.02532765, 0.02495889,
+       0.02564139, 0.02686784, 0.02755034, 0.02951633, 0.03094854,
+       0.03136211, 0.03150676, 0.02905794, 0.02846712, 0.02855472,
+       0.03085687, 0.03150473, 0.0328962 , 0.03617624, 0.04055235,
+       0.03973336, 0.03973539, 0.04289931, 0.04388945, 0.04318453,
+       0.04254075, 0.04187048, 0.04409724, 0.04562522, 0.04626493])]
+[0.044683982352674345]
+
+[array([0.0042172 , 0.00466744, 0.00560256, 0.00649286, 0.00635636,
+       0.00666399, 0.00652341, 0.00628709, 0.00596519, 0.00696143,
+       0.00785988, 0.00758281, 0.00606502, 0.00751354, 0.00608743,
+       0.01143533, 0.01102177, 0.01156165, 0.01272901, 0.01343595,
+       0.01337687, 0.01315889, 0.01408789, 0.01496189, 0.01595202,
+       0.0175513 , 0.02091079, 0.02096172, 0.02283196, 0.02422954,
+       0.02182758, 0.02275251, 0.02273417, 0.02532765, 0.02495889,
+       0.02564139, 0.02686784, 0.02755034, 0.02951633, 0.03094854,
+       0.03136211, 0.03150676, 0.02905794, 0.02846712, 0.02855472,
+       0.03085687, 0.03150473, 0.0328962 , 0.03617624, 0.04055235,
+       0.03973336, 0.03973539, 0.04289931, 0.04388945, 0.04318453,
+       0.04254075, 0.04187048, 0.04409724, 0.04562522, 0.04626493]), array([0.00466744, 0.00560256, 0.00649286, 0.00635636, 0.00666399,
+       0.00652341, 0.00628709, 0.00596519, 0.00696143, 0.00785988,
+       0.00758281, 0.00606502, 0.00751354, 0.00608743, 0.01143533,
+       0.01102177, 0.01156165, 0.01272901, 0.01343595, 0.01337687,
+       0.01315889, 0.01408789, 0.01496189, 0.01595202, 0.0175513 ,
+       0.02091079, 0.02096172, 0.02283196, 0.02422954, 0.02182758,
+       0.02275251, 0.02273417, 0.02532765, 0.02495889, 0.02564139,
+       0.02686784, 0.02755034, 0.02951633, 0.03094854, 0.03136211,
+       0.03150676, 0.02905794, 0.02846712, 0.02855472, 0.03085687,
+       0.03150473, 0.0328962 , 0.03617624, 0.04055235, 0.03973336,
+       0.03973539, 0.04289931, 0.04388945, 0.04318453, 0.04254075,
+       0.04187048, 0.04409724, 0.04562522, 0.04626493, 0.04468398])]
+[0.044683982352674345, 0.04258353510266247]
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>In the provided code, the training data for a machine learning model
+is prepared. It involves creating the input features
+(<code>x_train</code>) and the corresponding target values
+(<code>y_train</code>). To begin, a variable named train_data will be
+created to store the scaled training data. This data is obtained by
+scaling the original dataset.</p>
+<p>Next, the code initializes two empty lists, <code>x_train</code> and
+<code>y_train</code>, which will be populated with the input features
+and target values, respectively.</p>
+<p>Using a loop, the code iterates over the <code>train_data</code>
+array starting from index 60. Every iteration, 60 consecutive values
+from the array, representing the input features, are appended to
+<code>x_train</code>. Additionally, it appends the value at the current
+index (i) to <code>y_train</code>, representing the corresponding target
+value.</p>
+<p>In the first two iterations of the loop (when <code>i</code> is 60
+and 61), the code prints the values of <code>x_train</code> and
+<code>y_train</code> to provide a glimpse of the data structure.</p>
+<p>After the loop, the code converts <code>x_train</code> and
+<code>y_train</code> from lists to numpy arrays using the
+<code>np.array()</code> function.</p>
+<p>Next, the code reshapes the <code>x_train</code> array using
+<code>np.reshape()</code>. Reshaping is done to match the input shape
+expected by the machine learning model. Typically, models require input
+data in the form of samples, timesteps, and features. Here, an
+additional dimension of size 1 is added to represent the number of
+features.</p>
+<p>Finally, the code outputs the shape of <code>x_train</code> to
+provide information about the dimensions of the reshaped data.</p>
+<p>In summary, this code prepares the training data by creating the
+input features (<code>x_train</code>) and target values
+(<code>y_train</code>) for the machine learning model. From the scaled
+training data, 60 consecutive values are selected as input features, and
+the following values are assigned as targets. Input features are
+reshaped to match the model's expected format, facilitating
+training.</p>
+</div>
+<div class="cell code" data-execution_count="23"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:26:21.055972Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:26:21.055695Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:27:53.138092Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:27:53.137085Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:26:21.055951Z&quot;}">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.models <span class="im">import</span> Sequential</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.layers <span class="im">import</span> Dense, LSTM</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the LSTM model</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>model.add(LSTM(<span class="dv">128</span>, return_sequences<span class="op">=</span><span class="va">True</span>, input_shape<span class="op">=</span> (x_train.shape[<span class="dv">1</span>], <span class="dv">1</span>)))</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>model.add(LSTM(<span class="dv">64</span>, return_sequences<span class="op">=</span><span class="va">False</span>))</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>model.add(Dense(<span class="dv">25</span>))</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>model.add(Dense(<span class="dv">1</span>))</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mean_squared_error&#39;</span>)</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model</span></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>model.fit(x_train, y_train, batch_size<span class="op">=</span><span class="dv">1</span>, epochs<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/__init__.py:98: UserWarning: unable to load libtensorflow_io_plugins.so: unable to open file: libtensorflow_io_plugins.so, from paths: [&#39;/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io_plugins.so&#39;]
+caused by: [&#39;/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io_plugins.so: undefined symbol: _ZN3tsl6StatusC1EN10tensorflow5error4CodeESt17basic_string_viewIcSt11char_traitsIcEENS_14SourceLocationE&#39;]
+  warnings.warn(f&quot;unable to load libtensorflow_io_plugins.so: {e}&quot;)
+/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/__init__.py:104: UserWarning: file system plugins are not loaded: unable to open file: libtensorflow_io.so, from paths: [&#39;/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io.so&#39;]
+caused by: [&#39;/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io.so: undefined symbol: _ZTVN10tensorflow13GcsFileSystemE&#39;]
+  warnings.warn(f&quot;file system plugins are not loaded: {e}&quot;)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>2686/2686 [==============================] - 60s 21ms/step - loss: 0.0013
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>&lt;keras.callbacks.History at 0x7b68d03188b0&gt;</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The provided code utilizes the Keras library to build, compile, and
+train a Long Short-Term Memory (LSTM) model.</p>
+<p>To explain it in plain English, the code performs the following
+steps:</p>
+<p>First, it imports the necessary modules from Keras, including
+<code>Sequential</code> for creating a sequential model and
+<code>Dense</code> and <code>LSTM</code> for adding layers to the
+model.</p>
+<p>The code then proceeds to build the LSTM model. Using Sequential(),
+it creates a sequential model object that allows layers to be added
+sequentially.</p>
+<p>The model is then constructed by adding layers. An LSTM layer with
+128 units is added as the first layer. The input shape of this layer is
+defined by
+<code>LSTM(128, return_sequences=True, input_shape=(x_train.shape[1], 1))</code>.
+When return_sequences=True, the LSTM layer should return the full
+sequence of outputs rather than just the last. The
+<code>input_shape</code> parameter defines the shape of the input data,
+based on the shape of <code>x_train</code>. A second LSTM layer follows.
+LSTM(64, return_sequences=False) specifies this layer with 64 units.
+Here, <code>return_sequences=False</code> indicates that this LSTM layer
+should only return the last output in the sequence. Next, two dense
+layers are added. A dense layer has 25 units, defined by
+<code>Dense(25)</code>. Each neuron in a dense layer is connected to
+every neuron in the previous layer. In the second dense layer, there is
+only one unit, specified by <code>Dense(1)</code>. This layer represents
+the output layer of the model, responsible for predicting a single
+value. The code compiles the model using model.compile(). The
+<code>optimizer</code> parameter is set to 'adam', an optimization
+algorithm for adjusting a model's weights during training. The
+<code>loss</code> parameter is set to 'mean_squared_error', which is the
+loss function used to measure the difference between the predicted
+output and the actual target value. The model is trained using the
+function 'model.fit()'. Function h_train contains x training data and y
+training data. It is set to 1, indicating that the model should update
+its weights after each sample. The <code>epochs</code> parameter is set
+to 1, representing the number of times the model will iterate over the
+entire training dataset during the training process. To summarize, this
+code builds two LSTM layers followed by dense layers. Using the
+specified training data and target values, it compiles the model with an
+optimizer and loss function. Using the trained model, you can make
+predictions or analyze the data further.</p>
+</div>
+<div class="cell code" data-execution_count="24"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:27:53.139911Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:27:53.139560Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:27:53.963667Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:27:53.962981Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:27:53.139881Z&quot;}">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the testing data set</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new array containing scaled values from index 1543 to 2002 </span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> scaled_data[training_data_len <span class="op">-</span> <span class="dv">60</span>: , :]</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the data sets x_test and y_test</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> []</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> dataset[training_data_len:, :]</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">60</span>, <span class="bu">len</span>(test_data)):</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>    x_test.append(test_data[i<span class="op">-</span><span class="dv">60</span>:i, <span class="dv">0</span>])</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the data to a numpy array</span></span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> np.array(x_test)</span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Reshape the data</span></span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> np.reshape(x_test, (x_test.shape[<span class="dv">0</span>], x_test.shape[<span class="dv">1</span>], <span class="dv">1</span> ))</span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the models predicted price values </span></span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(x_test)</span>
+<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> scaler.inverse_transform(predictions)</span>
+<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the root mean squared error (RMSE)</span></span>
+<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a>rmse <span class="op">=</span> np.sqrt(np.mean(((predictions <span class="op">-</span> y_test) <span class="op">**</span> <span class="dv">2</span>)))</span>
+<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a>rmse</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>5/5 [==============================] - 1s 19ms/step
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>6.348973105122507</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>In the provided code, the data is prepared, the trained model is used
+to make predictions, and the root mean squared error (RMSE) is used to
+evaluate the model's performance. In plain English, the code performs
+the following steps: First, it extracts a subset of the scaled data to
+create a testing data set. The <code>test_data</code> array includes
+scaled values from index 1543 to the end of the <code>scaled_data</code>
+array. This subset of data will be used for evaluating the model's
+predictions. The next step is to initialize two empty lists, x_test and
+y_test. These lists will store the input features and target values,
+respectively, for testing the model's predictions. The code iterates
+over the array starting at index 60. During each iteration, it appends a
+sequence of 60 consecutive values from the array to <code>x_test</code>,
+representing the input features for testing.</p>
+<p>After the loop, the <code>x_test</code> list is converted to a numpy
+array, enabling compatibility with the model's requirements.</p>
+<p>The data in <code>x_test</code> is reshaped using
+<code>np.reshape()</code> to match the expected input shape of the
+model. This reshaping ensures that the dimensions of the data align with
+the training data, facilitating consistent processing. Finally, the
+model is used to predict the price values for the testing data. The
+predicted values are stored in the <code>predictions</code>
+variable.</p>
+<p>To obtain the actual predicted price values, the code inverse
+transforms the values in <code>predictions</code> to their original
+scale using <code>scaler.inverse_transform()</code>.</p>
+<p>Finally, the code computes the root mean squared error (RMSE) to
+evaluate the model's performance. The RMSE is calculated by taking the
+square root of the mean of the squared differences between the predicted
+values (<code>predictions</code>) and the actual values
+(<code>y_test</code>).</p>
+<p>As a result, this code prepares the testing data, creates predictions
+using the trained model, and evaluates the accuracy of the predictions
+by measuring the RMSE. RMSE measures the dissimilarity between predicted
+and actual values, providing a measure of how well a model predicts.</p>
+</div>
+<div class="cell code" data-execution_count="25"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:27:53.965362Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:27:53.964921Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:27:54.441674Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:27:54.441051Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:27:53.965339Z&quot;}">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the data</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>train <span class="op">=</span> data[:training_data_len]</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>valid <span class="op">=</span> data[training_data_len:]</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>valid[<span class="st">&#39;Predictions&#39;</span>] <span class="op">=</span> predictions</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the data</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>,<span class="dv">6</span>))</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Model&#39;</span>)</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Close Price USD ($)&#39;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>plt.plot(train[<span class="st">&#39;Close&#39;</span>])</span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a>plt.plot(valid[[<span class="st">&#39;Close&#39;</span>, <span class="st">&#39;Predictions&#39;</span>]])</span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Train&#39;</span>, <span class="st">&#39;Val&#39;</span>, <span class="st">&#39;Predictions&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/tmp/ipykernel_32/2388977846.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  valid[&#39;Predictions&#39;] = predictions
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c3db3d7b728b4d11ac65436eed9aa8c1/c57b304d2dd1f69214308f80d0bc4672af55a899.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>In order to visualize and compare the actual and predicted close
+prices, the provided code plots the training and validation data, as
+well as the predicted values generated by the trained model. In plain
+English, the code creates two subsets of the original data:
+<code>train</code> and <code>valid</code>. The <code>train</code> subset
+contains the data up to the training data length, while the
+<code>valid</code> subset includes the remaining data that was used for
+validation.</p>
+<p>Next, the code adds a new column to the <code>valid</code> subset
+called 'Predictions', which stores the predicted values generated by the
+model.</p>
+<p>After preparing the data, the code proceeds to plot the information.
+PLT.figure(figsize=(16,6)) creates a figure with a specified size. The
+size of the figure determines the dimensions of the resulting plot.</p>
+<p>The plot is given a title using <code>plt.title('Model')</code>,
+indicating that it represents the model's ability to predict close
+prices. A plot of 'Date' is displayed with 'Close Price USD ($)' as the
+x-axis. The plot is then used to plot the training data by using
+<code>plt.plot(train['Close'])</code>. This line graph visualizes the
+actual close prices from the training data. It also shows two lines: one
+representing the actual close prices from the validation data, and
+another representing the predicted values. These lines are plotted using
+<code>plt.plot(valid[['Close', 'Predictions']])</code>. The legend is
+added using
+<code>plt.legend(['Train', 'Val', 'Predictions'], loc='lower right')</code>.
+This legend provides labels for the different lines in the plot,
+indicating which line corresponds to the training data, validation data,
+and predicted values.</p>
+<p>Finally, the plot is displayed using <code>plt.show()</code>,
+allowing the visualization of the training and validation data alongside
+the predicted values.</p>
+<p>This code plots the validation and training data as well as the
+predicted values, enabling a visual comparison of the real and predicted
+close prices. Using this visualization, you can assess the model's
+performance and understand how well it captures underlying patterns.</p>
+</div>
+<div class="cell code" data-execution_count="26"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2023-06-29T07:27:54.443017Z&quot;,&quot;iopub.status.busy&quot;:&quot;2023-06-29T07:27:54.442615Z&quot;,&quot;iopub.status.idle&quot;:&quot;2023-06-29T07:27:54.453174Z&quot;,&quot;shell.execute_reply&quot;:&quot;2023-06-29T07:27:54.452380Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2023-06-29T07:27:54.442993Z&quot;}">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the valid and predicted prices</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>valid</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Close</th>
+      <th>Predictions</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2022-11-30</th>
+      <td>148.029999</td>
+      <td>143.286102</td>
+    </tr>
+    <tr>
+      <th>2022-12-01</th>
+      <td>148.309998</td>
+      <td>142.734497</td>
+    </tr>
+    <tr>
+      <th>2022-12-02</th>
+      <td>147.809998</td>
+      <td>142.759521</td>
+    </tr>
+    <tr>
+      <th>2022-12-05</th>
+      <td>146.630005</td>
+      <td>142.978836</td>
+    </tr>
+    <tr>
+      <th>2022-12-06</th>
+      <td>142.910004</td>
+      <td>143.075790</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2023-06-22</th>
+      <td>187.000000</td>
+      <td>178.342697</td>
+    </tr>
+    <tr>
+      <th>2023-06-23</th>
+      <td>186.679993</td>
+      <td>178.789963</td>
+    </tr>
+    <tr>
+      <th>2023-06-26</th>
+      <td>185.270004</td>
+      <td>179.228653</td>
+    </tr>
+    <tr>
+      <th>2023-06-27</th>
+      <td>188.059998</td>
+      <td>179.378113</td>
+    </tr>
+    <tr>
+      <th>2023-06-28</th>
+      <td>189.250000</td>
+      <td>179.827744</td>
+    </tr>
+  </tbody>
+</table>
+<p>144 rows × 2 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>In the code provided, you will see both the valid prices and the
+predicted prices generated by the model, which are the actual close
+prices from the validation data. In plain English, the code simply
+prints out the <code>valid</code> variable, which contains the actual
+close prices from the validation data. This provides a visual
+representation or a tabular display of the valid prices. These are the
+close prices for a specific period, usually after training. In
+comparison with the predicted prices generated by the model, these
+prices serve as a benchmark. In order to determine whether a model is
+accurate or efficient at forecasting or estimating the close price of
+the financial asset being analyzed, it is necessary to examine the valid
+prices alongside the predicted prices.</p>
+</div>
+<div class="cell markdown">
+<p>In this notebook, you explored stock data. You learned: - How to load
+stock market data from Yahoo Finance using yfinance. - How to explore
+and visualize time series using Pandas, Matplotlib, and Seaborn. - How
+to measure correlation between stocks. - How to measure the risk of
+investing in a particular stock. Have questions? Leave them in the
+comments below and I will be happy to answer them. References: [Jose
+Portilla Udemy Course: Learning Python for Data Analysis and
+Visualization] (<a
+href="https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/"
+class="uri">https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/</a>)</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>

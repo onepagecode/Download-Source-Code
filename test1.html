@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnePageCode</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+
+    #search-container {
+      margin: 20px auto;
+      width: 50%;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+<h1>OnePageCode</h1>
+<h2>Source Code for My YouTube</h2>
+
+
+<div id="search-container">
+  <label for="search">Search Project:</label>
+  <input type="text" id="search" name="search" placeholder="Type here..." onkeyup="filterTable()">
+  <div id="results-box"></div>
+</div>
+
+<table id="codeTable">
+  <tr>
+    <th>Name</th>
+    <th>Explanation</th>
+    <th>Watch</th>
+    <th>Link</th
+    <th>Date</th>
+  </tr>
+  <!-- You can add more rows with your content here -->
+  <tr>
+    <td><a href="Datasets/XGBoost-stock-prediction-11-october-2023.zip">Stock Prediction Using XGBoost</a></td>
+    <td><a href="https://onepagecode.substack.com/p/using-xgboost-for-forecasting-stock">Article Read Here</a></td>
+    <td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+    <td><a href="https://onepagecode.substack.com/subscribe?simple=true&next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&utm_source=paywall&utm_medium=web&utm_content=136665942">Substack</a> </td>
+    <td><a href="https://www.buymeacoffee.com/onepagecode">11 October 2023</a> </td>
+
+  </tr>
+  <tr>
+    <td><a href="Datasets/In-Depth-stock-prediction-5-October-2023.zip">Forecasting Stock Using Deep Learning Along With Indicators</a></td>
+    <td><a href="https://onepagecode.substack.com/p/forecasting-stock-using-deep-learning">Article Read Here</a></td>
+    <td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+    <td><a href="https://onepagecode.substack.com/subscribe?simple=true&next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&utm_source=paywall&utm_medium=web&utm_content=136665942">Substack</a> </td>
+    <td><a href="https://www.buymeacoffee.com/onepagecode">6 September 2023</a> </td>
+
+  </tr>
+  <tr>
+    <td><a href="Datasets/Stock-prediction-with-time-series-5-october-2023.ipynb">Stock Prediction with Time series</a></td>
+    <td><a href="https://onepagecode.substack.com/">Article Read Here</a></td>
+    <td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+    <td><a href="https://onepagecode.substack.com/subscribe?simple=true&next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&utm_source=paywall&utm_medium=web&utm_content=136665942">Substack</a> </td>
+    <td><a href="https://www.buymeacoffee.com/onepagecode">6 September 2023</a> </td>
+
+  </tr>
+  <!-- ... your table content ... -->
+</table>
+
+<script>
+  function filterTable() {
+    let input = document.getElementById("search");
+    let filter = input.value.toUpperCase();
+    let table = document.getElementById("codeTable");
+    let trs = table.getElementsByTagName("tr");
+
+    for (let i = 1; i < trs.length; i++) {
+      let td = trs[i].getElementsByTagName("td")[0];
+      if (td) {
+        let txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          trs[i].style.display = "";
+        } else {
+          trs[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+</body>
+
+</html>

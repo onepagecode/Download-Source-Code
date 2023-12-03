@@ -1,0 +1,26 @@
+<!--
+This is the HTML for a simple web page that serves as the main point of entry for a web application called "Sorting Visualizer". The structure of this page is defined with HTML (HyperText Markup Language).
+
+The HTML document starts with a <html> tag and contains two main sections: the <head> and the <body>.
+
+The <head> section includes metadata about the HTML document that is not displayed on the page itself. In this case, it includes a <meta> tag defining the character set as UTF-8, which is a common character encoding for Unicode. The <title> tag is used to specify the title of the document, which is displayed on the title bar of the web browser or in the page tab. A link to a shortcut icon (also known as a favicon) for the website is also provided through the <link> tag.
+
+The <body> section contains the main content that is displayed to the user. In this case, it includes an empty <div> element with an ID of "app", which is likely a placeholder where a JavaScript application (probably a React or Vue application, given the conventions) will render its content.
+
+Two <script> tags are included to load JavaScript files. The first loads jQuery, a popular JavaScript library, from a Content Delivery Network (CDN). The second loads a bundle.js file from the "client/public" directory of the server. This bundle.js file is probably a bundled version of the JavaScript code for the "Sorting Visualizer" application, possibly produced by a tool like Webpack or Browserify.
+
+So, in summary, this HTML document provides the structure for the "Sorting Visualizer" web application. It sets up the application's title, its favicon, an area for the application to render its content, and loads the necessary JavaScript files, including jQuery and the application's main JavaScript bundle.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <iframe src="https://onepagecode.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    <title>Sorting Visualizer</title>
+    <link rel="shortcut icon" type="image/ico" href="client/styling/icon.ico"/>
+  </head>
+  <body>
+    <div id="app" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="client/public/bundle.js" type="text/javascript"></script>
+  </body>
+</html>

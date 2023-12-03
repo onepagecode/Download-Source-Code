@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>OnePageCode</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+      background-color: rgb(245,245,245); /* Background color for the entire body */
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding: 20px;
+      background-color: #FFA500; /* Orange background for "OnePageCode" */
+      display: inline-block;
+      border-radius: 10px;
+      color: black; /* Ensuring the text remains black */
+    }
+
+
+    h2 {
+      font-size: 2em; /* Adjust size as needed */
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #search-container {
+      margin: 20px auto;
+      width: 50%;
+      position: relative; /* To center the label */
+    }
+
+    #search-container label {
+      display: block; /* Makes label a block element */
+      margin-bottom: 10px; /* Gap between the label and input box */
+    }
+
+    #search {
+      width: 100%; /* To span the full width of its container */
+      padding: 10px; /* Bigger search box */
+      font-size: 1.1em; /* Bigger text in search box */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    #codeTable {
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+<h1>OnePageCode</h1>
+<h2>Source Code for My YouTube</h2>
+<div class="substack">
+<iframe frameborder="0" height="320" scrolling="no" src="https://onepagecode.substack.com/embed" style="border:1px solid #EEE; background:white;" width="480"></iframe>
+</div>
+<div id="search-container">
+<label for="search">Search Project:</label>
+<input id="search" name="search" onkeyup="filterTable()" placeholder="Type here..." type="text"/>
+<div id="results-box"></div>
+</div>
+<table id="codeTable">
+<tr>
+<th>Name</th>
+<th>Explanation</th>
+<th>Watch</th>
+<th>Link</th>
+<th>Date</th>
+</tr><tr><td><a href="Datasets/test">test</a></td></tr>
+<!-- You can add more rows with your content here -->
+<tr>
+<td><a href="Datasets/XGBoost-stock-prediction-11-october-2023.zip">Stock Prediction Using XGBoost</a></td>
+<td><a href="https://onepagecode.substack.com/p/using-xgboost-for-forecasting-stock">Article Read Here</a></td>
+<td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+<td><a href="https://onepagecode.substack.com/subscribe?simple=true&amp;next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&amp;utm_source=paywall&amp;utm_medium=web&amp;utm_content=136665942">Substack</a> </td>
+<td><a href="https://www.buymeacoffee.com/onepagecode">11 October 2023</a> </td>
+</tr>
+<tr>
+<td><a href="Datasets/In-Depth-stock-prediction-5-October-2023.zip">Forecasting Stock Using Deep Learning Along With Indicators</a></td>
+<td><a href="https://onepagecode.substack.com/p/forecasting-stock-using-deep-learning">Article Read Here</a></td>
+<td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+<td><a href="https://onepagecode.substack.com/subscribe?simple=true&amp;next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&amp;utm_source=paywall&amp;utm_medium=web&amp;utm_content=136665942">Substack</a> </td>
+<td><a href="https://www.buymeacoffee.com/onepagecode">6 September 2023</a> </td>
+</tr>
+<tr>
+<td><a href="Datasets/Stock-prediction-with-time-series-5-october-2023.ipynb">Stock Prediction with Time series</a></td>
+<td><a href="https://onepagecode.substack.com/">Article Read Here</a></td>
+<td><a href="https://www.youtube.com/channel/UCsr3AeLWc7NO1pNLIQrC-dA">Youtube Video</a></td>
+<td><a href="https://onepagecode.substack.com/subscribe?simple=true&amp;next=https%3A%2F%2Fonepagecode.substack.com%2Fp%2Fconvolutional-neural-networks&amp;utm_source=paywall&amp;utm_medium=web&amp;utm_content=136665942">Substack</a> </td>
+<td><a href="https://www.buymeacoffee.com/onepagecode">6 September 2023</a> </td>
+</tr>
+<!-- ... your table content ... -->
+</table>
+<script>
+  function filterTable() {
+    let input = document.getElementById("search");
+    let filter = input.value.toUpperCase();
+    let table = document.getElementById("codeTable");
+    let trs = table.getElementsByTagName("tr");
+
+    let hasMatches = false; // New variable to track if there are any matches
+
+    for (let i = 1; i < trs.length; i++) {
+      let td = trs[i].getElementsByTagName("td")[0];
+      if (td) {
+        let txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          trs[i].style.display = "";
+          hasMatches = true; // Set hasMatches to true if a match is found
+        } else {
+          trs[i].style.display = "none";
+        }
+      }
+    }
+
+    // Show or hide the table based on whether there are matches
+    if (filter && hasMatches) {
+      table.style.display = ""; // Show table
+    } else {
+      table.style.display = "none"; // Hide table
+    }
+  }
+
+</script>
+</body>
+</html>
